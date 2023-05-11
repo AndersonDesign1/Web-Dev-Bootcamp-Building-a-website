@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Roboto';
+}
+.navbar{
+    background-color: #ff4500;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: black;
+    transition: 0.5s;
+}
+.btn-contact{
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-contact:hover{
+    color: #ff4500;
+    border: 2px solid orangered;
+    transition: 0.5s;
+}
+.hero-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+    padding-right: 80px;
+}
+h1{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 60px;
+}
+.menu{
+    background-color: #ff4500;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-size: 16px;
+    color: white;
+}
+.book{
+    background-color: #fff;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: #ff4500 solid 2px;
+}
+.menu:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+    border: 2px solid #ff4500;
+}
+.book:hover{
+    background-color: #ff4500;
+    color: white;
+    transition: 0.5s;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+.about-img {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.about-text {
+    flex: 1;
+    max-width: 50%;
+    margin-left: 20px;
+    text-align: justify;
+}
+.buy{
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 16px;
+    border: #ff4500 solid 2px;
+}
+.buy:hover{
+    background-color: #ff4500;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.contact-text{
+    margin: 0;
+    color: #ff4500;
+}
+.contact {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff4500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ff4500;
+}
+section input[type="submit"] {
+    margin: 10px;
+    padding: 10px 20px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+section input[type="submit"]:hover {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
